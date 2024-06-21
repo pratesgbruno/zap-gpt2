@@ -9,25 +9,11 @@ const mainQuestion = [
     type: 'list',
     name: 'AI_SELECTED',
     message: 'Escolha a IA que deseja usar:',
-    choices: ['GPT', 'GEMINI'],
+    choices: ['GPT'],
   },
 ];
 
 const commonQuestions = [
-  {
-    type: 'input',
-    name: 'MENSAGEM_PARA_ENVIAR_QUANDO_RECEBER_IMAGEM',
-    message: 'Informe a mensagem para quando receber imagens:',
-    default:
-      'Eu ainda não consigo consigo processar imagens. Por favor, envie um texto.',
-  },
-  {
-    type: 'input',
-    name: 'MENSAGEM_PARA_ENVIAR_QUANDO_RECEBER_AUDIO',
-    message: 'Informe a mensagem para quando receber áudios:',
-    default:
-      'Eu ainda não consigo processar áudios. Por favor, envie um texto.',
-  },
   {
     type: 'input',
     name: 'MENSAGEM_PARA_ENVIAR_QUANDO_RECEBER_TIPO_DESCONHECIDO',
